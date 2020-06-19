@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(120deg,#ff6b6b,#48dbfb);
+    background-image: linear-gradient(160deg,#1ea08475,#51788ab2);
     min-height: 100vh;
 }
 
@@ -21,10 +21,12 @@ main{
 main p{
     padding: 0;
     margin: 0;
-    text-align: left;
+    text-align: center;
     font-family: 'Oxanium';
     font-size: 15px;
-    color: #0b774e;
+    color: #ffffff;
+    font-weight: 900;
+    letter-spacing: 4px;
 }
 main #window{
     border-radius: 8px;
@@ -58,8 +60,14 @@ input:hover{
 button:hover{
     background: #71ce81;
 }
-#plus, #minus, #multi, #divi{
+/*#plus, #minus, #multi, #divi{
     color: #fff;
     background-color: #999;
+}*/
+.operator {
+    color: #fff;
+    background-color: #999;  
 }
-
+.operator:hover {
+    background: #8dc2ce;
+}
